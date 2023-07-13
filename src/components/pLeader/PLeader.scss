@@ -1,0 +1,35 @@
+.card {
+  color: red;
+  display: flex;
+  border: 1px solid rgba(243, 187, 5, 0.9);
+  margin: 15px 50px;
+  background-color: rgba($color: #000000, $alpha: 0.1);
+  img {
+    height: 100px;
+    width: 90px;
+    border-radius: 50%;
+  }
+  .leader {
+    h2 {
+      color: blueviolet;
+    }
+    p {
+      color: rgb(106, 152, 15);
+    }
+  }
+  .button {
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(248, 204, 61, 0.549);
+    color: rgb(228, 12, 12);
+    height: 35px;
+    width: 80px;
+    margin-top: 35px;
+    margin-left: 500px;
+  }
+  .button:hover {
+    background-color: rgb(220, 80, 80);
+    color: rgb(246, 192, 14);
+    cursor: pointer;
+  }
+}

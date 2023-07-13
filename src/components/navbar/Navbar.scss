@@ -1,0 +1,40 @@
+.Navbar {
+  background-image: url("../../assets/flag.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80px;
+  text-transform: uppercase;
+  position: sticky;
+  top: 0;
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    .nav-right {
+      .link-group {
+        display: flex;
+        gap: 16px;
+      }
+      .link {
+        color: rgb(211, 84, 0);
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 7px;
+      }
+      .link:hover {
+        color: rgb(243, 156, 18);
+        background-color: rgba(255, 255, 255, 0.686);
+      }
+    }
+
+    .nav-left {
+      img {
+        height: 25px;
+        width: 20px;
+      }
+    }
+  }
+}

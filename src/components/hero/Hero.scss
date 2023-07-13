@@ -1,0 +1,38 @@
+.Hero {
+  height: 120vh;
+  background-image: url("../../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+
+  .hero-content {
+    height: 100%;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+
+    .heading {
+      color: rgb(211, 84, 0);
+      font-size: 3rem;
+    }
+    .subheading {
+      color: rgb(211, 84, 0);
+      font-size: 1.8rem;
+    }
+
+    .cta {
+      margin-top: 16px;
+      border: none;
+      border-radius: 7px;
+      color: rgb(249, 105, 14);
+      font-size: 0.9rem;
+      background-color: rgba(255, 255, 255, 0.6);
+      padding: 7px;
+    }
+
+    .cta:hover {
+      background-color: rgba(255, 255, 255, 0.686);
+      color: rgb(243, 156, 18);
+      cursor: pointer;
+    }
+  }
+}
